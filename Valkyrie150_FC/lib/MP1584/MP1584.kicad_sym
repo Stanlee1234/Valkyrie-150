@@ -1,0 +1,104 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MP1584" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "MP1584" (id 1) (at 0 0.0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Footprint" "MP1584:DC-BRICK" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/MP1584_Monolithic_Power_Systems.pdf" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/MP1584_Monolithic_Power_Systems.pdf" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 3A 8-SOIC (0.154\", 3.90mm Width) Exposed Pad" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Monolithic Power" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MPN" "MP1584" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "SOIC-8 Monolithic Power" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SOURCE_URL" "https://www.snapeda.com/parts/MP1584/Monolithic+Power+Systems/view-part/" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MP1584_0_0"
+      (rectangle (start -7.62 -5.08) (end 10.16 5.08)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin input line (at -15.24 2.54 0) (length 7.62)
+        (name "VIN+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "IN1+"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -15.24 2.54 0) (length 7.62) hide
+        (name "VIN+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "IN2+"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -15.24 -2.54 0) (length 7.62)
+        (name "VIN-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "IN1-"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -15.24 -2.54 0) (length 7.62) hide
+        (name "VIN-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "IN2-"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 17.78 -2.54 180.0) (length 7.62)
+        (name "VOUT-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "OUT1-"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 17.78 -2.54 180.0) (length 7.62) hide
+        (name "VOUT-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "OUT2-"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 17.78 2.54 180.0) (length 7.62)
+        (name "VOUT+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "OUT1+"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 17.78 2.54 180.0) (length 7.62) hide
+        (name "VOUT+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "OUT2+"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
