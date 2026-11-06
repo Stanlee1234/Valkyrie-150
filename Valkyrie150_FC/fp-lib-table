@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "GY-521") (type "KiCad") (uri "${KIPRJMOD}/lib/GY-521") (options "") (descr ""))
 	(lib (name "MP1584") (type "KiCad") (uri "${KIPRJMOD}/lib/MP1584") (options "") (descr ""))
+	(lib (name "Connectors") (type "KiCad") (uri "${KIPRJMOD}/lib/Connectors") (options "") (descr "Drone Connectors"))
 )
